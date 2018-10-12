@@ -5,11 +5,11 @@
 //2.Get the bean of the class from spring container and print the values of the instance variable.
 
 
-package com.ttn.spring.session;
+package com.ttn.spring.core;
 
 public class Database {
 
-    Integer port;
+    int port;
     String name;
 
     public int getPort() {

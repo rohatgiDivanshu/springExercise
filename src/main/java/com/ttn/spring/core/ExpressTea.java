@@ -1,4 +1,4 @@
-package com.ttn.spring.session;
+package com.ttn.spring.core;
 
 public class ExpressTea implements HotDrink {
 
