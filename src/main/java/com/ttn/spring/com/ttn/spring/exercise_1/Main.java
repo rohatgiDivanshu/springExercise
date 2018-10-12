@@ -16,8 +16,8 @@ public class Main {
         ((ClassPathXmlApplicationContext) applicationContext).start();
 
 
-        Database database = applicationContext.getBean(Database.class);
-        database.connect();
+//        Database database = applicationContext.getBean(Database.class);
+//        database.connect();
 
 
 

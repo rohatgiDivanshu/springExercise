@@ -21,12 +21,12 @@ public class Main {
 //        System.out.println(complex);
 
 //        Restaurant restaurant = applicationContext.getBean("teaRestaurant",Restaurant.class);
-//        Restaurant restaurant2 = applicationContext.getBean("expressTeaRestaurant",Restaurant.class);
-        Restaurant restaurant3 = applicationContext.getBean("restaurant",Restaurant.class);
-        restaurant3.getHotDrink().prepareDrink();
-
 //        restaurant.getHotDrink().prepareDrink();
-//        restaurant2.getHotDrink().prepareDrink();
+        Restaurant restaurant2 = applicationContext.getBean(Restaurant.class);
+        restaurant2.getHotDrink().prepareDrink();
+//        Restaurant restaurant3 = applicationContext.getBean("restaurant",Restaurant.class);
+//        restaurant3.getHotDrink().prepareDrink();
+
 
 //        System.out.println(restaurant.equals(restaurant2));
 
