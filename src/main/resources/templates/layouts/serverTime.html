@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Server Time</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script th:src="@{'/javascript/serverTime.js'}"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">Time from server</div>
+                <div class="panel-body">
+                    <p id="serverTime"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
